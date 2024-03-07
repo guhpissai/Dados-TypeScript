@@ -6,8 +6,8 @@ async function handleData() {
     "https://api.origamid.dev/json/transacoes.json?"
   );
   if (!data) return;
-  const transacoes = data.map((normalizarTransacao))
-  console.log(transacoes)
+  const transacoes = data.map(normalizarTransacao);
+  console.log(transacoes);
 }
 
 handleData();

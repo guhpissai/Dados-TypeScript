@@ -1,5 +1,4 @@
 export default async function fetchData(url) {
-    console.log("Rodou");
     try {
         const response = await fetch(url);
         if (!response.ok)
